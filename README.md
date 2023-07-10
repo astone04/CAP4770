@@ -54,7 +54,7 @@ Run emptyRowChecker.py (with removed_rows.csv) for stats revolving semi-cleaned 
 python3 emptyRowChecker.py
 ```
 
-Run checkOutliersAndDupes.py to view stats revolving around the only attribute susceptible to outliers; revenue, and to check for and delete duplicate rows
+Run checkOutliersAndDupes.py to view stats revolving around the attributes susceptible to outliers; revenue/budget, and to check for and delete duplicate rows
 ```zsh
-python3 checkOutliersAndDupes.py
+python3 checkOutliersAndRemoveDupes.py
 ```
