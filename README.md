@@ -22,7 +22,7 @@ python3 --version
 print(pd. __version__) [in Python script]
 ```
 
-#### Get started
+#### Data Cleaning Process
 
 Navigate to the `scripts` folder 
 
@@ -30,14 +30,31 @@ Navigate to the `scripts` folder
 cd scripts
 ```
 
-Run removeColumns.py
+Run removeColumns.py, which removes unnecessary attributes from each row in the dataset
 
 ```zsh
 python3 removeColumns.py
 ```
 
-Run emptyRowChecker.py for stats revolving semi-cleaned data
+Run emptyRowChecker.py (with removed_columns.csv) for stats revolving semi-cleaned data
 
 ```zsh
 python3 emptyRowChecker.py
 ``` 
+
+Run removeRows.py, which removes rows where the values are not accurate or complete
+
+```zsh
+python3 removeRows.py
+```
+
+Run emptyRowChecker.py (with removed_rows.csv) for stats revolving semi-cleaned data
+
+```zsh
+python3 emptyRowChecker.py
+```
+
+Run checkOutliersAndDupes.py to view stats revolving around the only attribute susceptible to outliers; revenue, and to check for and delete duplicate rows
+```zsh
+python3 checkOutliersAndDupes.py
+```
