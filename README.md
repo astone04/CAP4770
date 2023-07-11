@@ -6,7 +6,7 @@ Welcome to the Movie Production Recommender: an application that recommends whic
 
 - [Benjamin Mendoza](https://www.github.com/bendoza)
 - [Amy Stone](https://github.com/astone04)
-- [Erik Mercado](https://www.github.com/)
+- [Erik Mercado](https://github.com/TheLittleChosenOne)
 
 ## Development
 
