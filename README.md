@@ -22,6 +22,8 @@ python3 --version
 print(pd. __version__) [in Python script]
 ```
 
+#### Get started
+
 Navigate to the `scripts` folder 
 
 ```zsh
