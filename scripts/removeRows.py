@@ -18,6 +18,6 @@ print("Dropping duplicates")
 data = data.drop_duplicates()
 num_duplicate_rows = data.duplicated().sum()
 
-data.to_csv("../data/cleaned_data.csv", index=False)
+data.to_csv("../data/removed_rows.csv", index=False)
 
 print("Rows removed successfully!")

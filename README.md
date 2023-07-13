@@ -30,17 +30,17 @@ Navigate to the `scripts` folder
 cd scripts
 ```
 
+Run emptyRowChecker.py (with original_data.csv, which must be inputted manually) for stats revolving un-cleaned data
+
+```zsh
+python3 emptyRowChecker.py
+``` 
+
 Run removeColumns.py, which removes unnecessary attributes from each row in the original dataset
 
 ```zsh
 python3 removeColumns.py
 ```
-
-Run emptyRowChecker.py (with removed_columns.csv, which must be inputted manually) for stats revolving semi-cleaned data
-
-```zsh
-python3 emptyRowChecker.py
-``` 
 
 Run removeRows.py, which removes rows where the values are not accurate or complete, and also removes duplicate rows
 
@@ -48,15 +48,21 @@ Run removeRows.py, which removes rows where the values are not accurate or compl
 python3 removeRows.py
 ```
 
-Run emptyRowChecker.py (with removed_rows.csv) for stats revolving cleaned data
+Run emptyRowChecker.py (with removed_rows.csv, which must be inputted manually) for stats revolving semi-cleaned data
 
 ```zsh
 python3 emptyRowChecker.py
 ```
 
-Run identifyOutliers.py to view outliers, and stats revolving around the attributes susceptible to outliers: revenue/budget/vote_average
+Run identifyOutliers.py to view outliers, and stats revolving around the attributes susceptible to outliers: revenue/budget/vote_average.
 ```zsh
 python3 identifyOutliers.py
 ```
 
-With our dataset, we decided to not remove any of the outliers after detection.
+The prior step removes outliers from only vote_average, because after inspection we found the outliers in revenue/budget play to the strengths of the problem we are trying to solve.
+
+Run emptyRowChecker.py (with cleaned_data.csv, which must be inputted manually) for stats revolving fully cleaned data
+
+```zsh
+python3 emptyRowChecker.py
+```

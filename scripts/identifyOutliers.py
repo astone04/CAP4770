@@ -26,10 +26,17 @@ def check_for_outliers(file):
     return outliers
 
 # the following function prints the outliers listing each category and writes it to a new .csv file
-def print_no_outlier_file(outliers):
+def print_no_outlier_file(file, outliers):
+
+    df = pd.read_csv(file)
+
+    non_outliers = df[~df['vote_average'].isin(outliers['vote_average'])].dropna()  # filter out non-outlier rows
 
     for category, values in outliers.items():
         print(f"* {category}: {values}")
 
+    with open("../data/cleaned_data.csv", "w") as f:
+        f.write(",".join(df.columns) + "\n")  # write the column names as the first row
+        non_outliers.to_csv(f, index=False, header=False)  # write non-outlier rows to the file
 
-print_no_outlier_file(check_for_outliers("../data/removed_rows.csv"))
+print_no_outlier_file("../data/removed_rows.csv", check_for_outliers("../data/removed_rows.csv"))
