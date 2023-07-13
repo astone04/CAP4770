@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv("../data/cleaned_data.csv")
+data = pd.read_csv("../data/removed_rows.csv")
 
 count_empty_genres = data[data['genres'] == "[]"].shape[0]
 count_empty_release_date = data['release_date'].isnull().sum()

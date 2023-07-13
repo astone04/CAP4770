@@ -30,13 +30,13 @@ Navigate to the `scripts` folder
 cd scripts
 ```
 
-Run removeColumns.py, which removes unnecessary attributes from each row in the dataset
+Run removeColumns.py, which removes unnecessary attributes from each row in the original dataset
 
 ```zsh
 python3 removeColumns.py
 ```
 
-Run emptyRowChecker.py (with removed_columns.csv) for stats revolving semi-cleaned data
+Run emptyRowChecker.py (with removed_columns.csv, which must be inputted manually) for stats revolving semi-cleaned data
 
 ```zsh
 python3 emptyRowChecker.py
@@ -48,7 +48,7 @@ Run removeRows.py, which removes rows where the values are not accurate or compl
 python3 removeRows.py
 ```
 
-Run emptyRowChecker.py (with removed_rows.csv) for stats revolving semi-cleaned data
+Run emptyRowChecker.py (with removed_rows.csv) for stats revolving cleaned data
 
 ```zsh
 python3 emptyRowChecker.py
@@ -59,8 +59,4 @@ Run identifyOutliers.py to view outliers, and stats revolving around the attribu
 python3 identifyOutliers.py
 ```
 
-Run emptyRowChecker.py (with cleaned_data.csv) for stats revolving fully-cleaned data
-
-```zsh
-python3 emptyRowChecker.py
-```
+With our dataset, we decided to not remove any of the outliers after detection.
