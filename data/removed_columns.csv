@@ -3459,7 +3459,7 @@ budget,genres,revenue,release_date,vote_average
 34000000,"[{'id': 10749, 'name': 'Romance'}, {'id': 18, 'name': 'Drama'}, {'id': 12, 'name': 'Adventure'}]",0.0,2000-05-05,5.3
 0,"[{'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}]",0.0,2000-04-14,6.2
 600000,"[{'id': 35, 'name': 'Comedy'}, {'id': 18, 'name': 'Drama'}]",4000000.0,1999-06-04,6.8
-0,"[{'id': 18, 'name': 'Drama'}]",10.0,2000-05-05,0.0
+0,"[{'id': 18, 'name': 'Drama'}]",10.0,,0.0
 0,[],0.0,1962-02-20,5.0
 0,"[{'id': 28, 'name': 'Action'}, {'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}, {'id': 53, 'name': 'Thriller'}]",19910002.0,1983-05-13,5.6
 0,"[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 18, 'name': 'Drama'}, {'id': 10751, 'name': 'Family'}]",0.0,1956-06-08,5.2
