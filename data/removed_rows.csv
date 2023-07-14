@@ -3569,7 +3569,6 @@ budget,genres,revenue,release_date,vote_average
 4500000,"[{'id': 18, 'name': 'Drama'}, {'id': 27, 'name': 'Horror'}, {'id': 9648, 'name': 'Mystery'}, {'id': 53, 'name': 'Thriller'}]",3606395.0,2010-04-09,5.4
 10000000,"[{'id': 18, 'name': 'Drama'}, {'id': 10402, 'name': 'Music'}]",2995811.0,2010-03-19,6.3
 5500000,"[{'id': 27, 'name': 'Horror'}]",801000.0,1984-04-19,5.6
-4,"[{'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}, {'id': 10752, 'name': 'War'}]",25.0,1932-12-08,6.2
 21000000,"[{'id': 35, 'name': 'Comedy'}]",49050886.0,2010-04-15,5.5
 5641880,"[{'id': 12, 'name': 'Adventure'}, {'id': 18, 'name': 'Drama'}, {'id': 28, 'name': 'Action'}, {'id': 14, 'name': 'Fantasy'}]",30638.0,2009-09-04,5.9
 15000000,"[{'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}]",75700498.0,2010-03-19,5.9
@@ -4231,7 +4230,6 @@ budget,genres,revenue,release_date,vote_average
 32000000,"[{'id': 28, 'name': 'Action'}, {'id': 35, 'name': 'Comedy'}]",126041322.0,2013-06-12,6.2
 200000000,"[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 878, 'name': 'Science Fiction'}]",1215439994.0,2013-04-18,6.8
 6200000,"[{'id': 18, 'name': 'Drama'}]",4820000.0,2010-09-10,6.9
-40000000,"[{'id': 12, 'name': 'Adventure'}, {'id': 18, 'name': 'Drama'}]",5446000.0,2011-12-21,5.9
 10000000,"[{'id': 18, 'name': 'Drama'}]",21587700.0,2013-05-01,7.0
 180000,"[{'id': 27, 'name': 'Horror'}, {'id': 53, 'name': 'Thriller'}]",175742.0,2011-10-22,4.0
 2500000,"[{'id': 18, 'name': 'Drama'}]",3003.0,2012-02-14,4.4
@@ -4471,7 +4469,6 @@ budget,genres,revenue,release_date,vote_average
 12700000,"[{'id': 35, 'name': 'Comedy'}]",3430018.0,2014-05-30,6.7
 17500000,"[{'id': 18, 'name': 'Drama'}, {'id': 10402, 'name': 'Music'}]",7018189.0,2013-11-27,5.8
 19700000,"[{'id': 16, 'name': 'Animation'}, {'id': 12, 'name': 'Adventure'}, {'id': 10751, 'name': 'Family'}]",30000000.0,2013-11-17,6.6
-3512454,"[{'id': 18, 'name': 'Drama'}]",115860.0,2013-03-13,7.0
 4357373,"[{'id': 53, 'name': 'Thriller'}, {'id': 18, 'name': 'Drama'}]",1200000.0,2013-10-13,6.5
 500000,"[{'id': 35, 'name': 'Comedy'}]",500000.0,2012-06-26,3.8
 50000000,"[{'id': 80, 'name': 'Crime'}, {'id': 35, 'name': 'Comedy'}, {'id': 28, 'name': 'Action'}]",188441614.0,2014-06-05,7.0
@@ -4905,9 +4902,7 @@ budget,genres,revenue,release_date,vote_average
 22000000,"[{'id': 35, 'name': 'Comedy'}, {'id': 18, 'name': 'Drama'}, {'id': 9648, 'name': 'Mystery'}]",63647656.0,2016-02-05,5.7
 3196621,"[{'id': 35, 'name': 'Comedy'}]",25513752.0,2015-10-08,6.8
 5000000,"[{'id': 18, 'name': 'Drama'}]",26144.0,2015-05-13,7.3
-26000000,"[{'id': 12, 'name': 'Adventure'}, {'id': 10751, 'name': 'Family'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 53, 'name': 'Thriller'}]",38793283.0,2002-03-17,4.9
 12000000,"[{'id': 28, 'name': 'Action'}, {'id': 9648, 'name': 'Mystery'}]",117629.0,2012-08-14,6.0
-30000000,"[{'id': 35, 'name': 'Comedy'}, {'id': 80, 'name': 'Crime'}, {'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}, {'id': 53, 'name': 'Thriller'}]",33013805.0,2002-12-30,6.6
 58000000,"[{'id': 12, 'name': 'Adventure'}, {'id': 27, 'name': 'Horror'}, {'id': 35, 'name': 'Comedy'}]",158162788.0,2015-08-05,6.2
 12000000,"[{'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}]",60273173.0,2015-09-11,5.6
 15000000,"[{'id': 35, 'name': 'Comedy'}, {'id': 10402, 'name': 'Music'}, {'id': 10752, 'name': 'War'}]",3020664.0,2015-10-22,5.2
@@ -5354,7 +5349,6 @@ budget,genres,revenue,release_date,vote_average
 100000000,"[{'id': 28, 'name': 'Action'}, {'id': 18, 'name': 'Drama'}, {'id': 36, 'name': 'History'}, {'id': 53, 'name': 'Thriller'}, {'id': 10752, 'name': 'War'}]",519876949.0,2017-07-19,7.5
 8500000,"[{'id': 28, 'name': 'Action'}, {'id': 18, 'name': 'Drama'}]",5730596.0,1985-05-03,4.7
 8520000,"[{'id': 28, 'name': 'Action'}, {'id': 18, 'name': 'Drama'}, {'id': 35, 'name': 'Comedy'}]",56100000.0,2017-01-18,6.2
-16000000,"[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 16, 'name': 'Animation'}, {'id': 28, 'name': 'Action'}, {'id': 10751, 'name': 'Family'}]",68411275.0,2000-07-08,6.0
 260000000,"[{'id': 28, 'name': 'Action'}, {'id': 878, 'name': 'Science Fiction'}, {'id': 53, 'name': 'Thriller'}, {'id': 12, 'name': 'Adventure'}]",604942143.0,2017-06-21,6.2
 2000000,"[{'id': 35, 'name': 'Comedy'}, {'id': 18, 'name': 'Drama'}]",11666088.0,2012-12-27,5.3
 2000000,"[{'id': 35, 'name': 'Comedy'}]",8000000.0,2011-07-21,3.1

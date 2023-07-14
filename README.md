@@ -42,7 +42,7 @@ Run emptyRowChecker.py (with removed_columns.csv) for stats revolving semi-clean
 python3 emptyRowChecker.py
 ``` 
 
-Run removeRows.py, which removes rows where the values are not accurate or complete
+Run removeRows.py, which removes rows where the values are not accurate or complete, and also removes duplicate rows
 
 ```zsh
 python3 removeRows.py
@@ -54,7 +54,13 @@ Run emptyRowChecker.py (with removed_rows.csv) for stats revolving semi-cleaned 
 python3 emptyRowChecker.py
 ```
 
-Run checkOutliersAndDupes.py to view stats revolving around the attributes susceptible to outliers; revenue/budget, and to check for and delete duplicate rows
+Run identifyOutliers.py to view outliers, and stats revolving around the attributes susceptible to outliers: revenue/budget/vote_average
 ```zsh
-python3 checkOutliersAndRemoveDupes.py
+python3 identifyOutliers.py
+```
+
+Run emptyRowChecker.py (with cleaned_data.csv) for stats revolving fully-cleaned data
+
+```zsh
+python3 emptyRowChecker.py
 ```

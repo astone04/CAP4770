@@ -9,6 +9,15 @@ data = data[~(data['revenue'].isna())]
 data = data[~(data['budget'].isnull())]
 data = data[~(data['budget'] == "0")]
 
+num_duplicate_rows = data.duplicated().sum()
+
+print("Number of duplicate rows:", num_duplicate_rows)
+print()
+print("Dropping duplicates")
+
+data = data.drop_duplicates()
+num_duplicate_rows = data.duplicated().sum()
+
 data.to_csv("../data/removed_rows.csv", index=False)
 
 print("Rows removed successfully!")
