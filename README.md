@@ -59,7 +59,7 @@ Run identifyOutliers.py to view outliers, and stats revolving around the attribu
 python3 identifyOutliers.py
 ```
 
-The prior step removes outliers from only vote_average, because after inspection we found the outliers in revenue/budget play to the strengths of the problem we are trying to solve.
+The prior step identifies outliers from only vote_average, because after inspection we found the outliers in revenue/budget play to the strengths of the problem we are trying to solve.
 
 Run emptyRowChecker.py (with cleaned_data.csv, which must be inputted manually) for stats revolving fully cleaned data
 
