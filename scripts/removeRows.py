@@ -11,8 +11,8 @@ data = data[~(data['budget'] == "0")]
 data = data[~(data['release_date'].isnull())]
 
 data['release_date'] = pd.to_datetime(data['release_date'])
-data['month'] = data['release_date'].dt.month
-data['year'] = data['release_date'].dt.year
+data['release_month'] = data['release_date'].dt.month
+data['release_year'] = data['release_date'].dt.year
 
 num_duplicate_rows = data.duplicated().sum()
 

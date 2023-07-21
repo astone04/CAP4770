@@ -1,4 +1,4 @@
-budget,genres,revenue,release_date,vote_average,month,year
+budget,genres,revenue,release_date,vote_average,release_month,release_year
 30000000,"[{'id': 16, 'name': 'Animation'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}]",373554033.0,1995-10-30,7.7,10,1995
 65000000,"[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 10751, 'name': 'Family'}]",262797249.0,1995-12-15,6.9,12,1995
 16000000,"[{'id': 35, 'name': 'Comedy'}, {'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}]",81452156.0,1995-12-22,6.1,12,1995
