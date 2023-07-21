@@ -42,7 +42,7 @@ Run removeColumns.py, which removes unnecessary attributes from each row in the 
 python3 removeColumns.py
 ```
 
-Run removeRows.py, which removes rows where the values are not accurate or complete, and also removes duplicate rows
+Run removeRows.py, which removes rows where the values are not accurate or complete, removes duplicate rows, and splits the date into two separate month/year columns
 
 ```zsh
 python3 removeRows.py
